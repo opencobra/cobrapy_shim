@@ -4,7 +4,7 @@ setup(
     name="cobrapy_shim",
     author="Ali Ebrahim",
     author_email="aebrahim@ucsd.edu",
-    version="1.0",
+    version="0.1",
     py_modules=["cobrapy_shim"],
     install_requires=["cobra>=0.4.0b3"],
 
@@ -16,8 +16,8 @@ setup(
     license="CC0",
     classifiers=[
         "Environment :: Console",
-        "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
-        'Operating System :: OS Independent',
+        "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "Operating System :: OS Independent",
     ]
 
 )
