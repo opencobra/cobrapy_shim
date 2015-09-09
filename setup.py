@@ -4,9 +4,9 @@ setup(
     name="cobrapy_shim",
     author="Ali Ebrahim",
     author_email="aebrahim@ucsd.edu",
-    version="0.1",
+    version="0.1.1",
     py_modules=["cobrapy_shim"],
-    install_requires=["cobra>=0.4.0b3"],
+    install_requires=["cobra>=0.4.0b4"],
 
     entry_points={"console_scripts": [
         "sbml2mat = cobrapy_shim:sbml_to_mat",
